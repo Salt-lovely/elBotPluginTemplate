@@ -13,7 +13,7 @@ el-bot的插件模板
 ├── tsconfig.json
 │   ...
 ```
-1. 这个 `src/example.ts` 就是模板文件
+4. 这个 `src/example.ts` 就是模板文件
 ## 如何安装el-bot（傻瓜式教程）
 1. 找一个空文件夹 重命名el-bot （没有空文件夹？右键新建一个）
 1. 在这个文件夹打开cmd，或者`cd`到这个文件夹
@@ -28,19 +28,19 @@ el-bot的插件模板
 npm start:el-bot
 pause
 ```
-3. 新建文件夹 **mirai-console**
+8. 新建文件夹 **mirai-console**
 3. 下载 **1.0M4** 版本的 mirai-console 和 mirai-console-pure
 3. 下载 mirai-core-all ，我用的是 1.3.3，理论上 1.2.3 - 1.3.3 都能用
 4. 把这三个 jar 丢进 mirai-console/libs （没有libs文件夹？右键新建一个）
 4. **mirai** 文件夹内新建一个 .bat 文件（右键，新建文本文档，重命名“mirai-console.bat”）
-4. 里面写上：
+8. 里面写上：
 ```
 @echo off
 title Mirai Console
 java -cp "./libs/*" net.mamoe.mirai.console.pure.MiraiConsolePureLoader %*
 pause
 ```
-5. 打开 mirai 里面的 bat 运行，成功后输入`stop`回车退出
+14. 打开 mirai 里面的 bat 运行，成功后输入`stop`回车退出
 5. mirai文件夹出现了新文件夹 plugin
 5. 将下载到的 mirai-api-http 1.8.4 放到 plugin
 5. 打开 mirai 里面的 bat 运行，成功后输入`stop`回车退出
